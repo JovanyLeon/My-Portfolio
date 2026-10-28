@@ -16,6 +16,21 @@ At Drexel University, I am taking courses to help expand my growth on more progr
 
 export const workExperience = [
   {
+    company: "Cornelis Networks",
+    location: "Chesterbrook, PA",
+    position: "Software Engineer Co-op",
+    period: "April 2026 - Present",
+    achievements: [
+      "Built 3 MCP-based developer agents for internal repositories and test validation, reducing codebase navigation and onboarding time by 30%.",
+      "Created 15+ reusable, object-oriented Python regression automations, reducing manual testing effort by 35%.",
+      "Developed Jenkins, Kubernetes, and Grafana observability workflows to monitor 25+ tests, builds, and health metrics, strengthening CI/CD visibility and regression detection.",
+      "Validated InfiniBand and Ethernet releases across 10+ system configurations, analyzing throughput, latency, stability, and performance regressions under high-performance workloads.",
+      "Partnered with software, electrical, and mechanical engineers to diagnose cross-layer hardware/software failures, helping identify 10+ integration defects across 12+ configurations.",
+    ],
+    image: "/Cornelis.jpg",
+    imageAlt: "Cornelis Networks team",
+  },
+  {
     company: "ESF Camps & Experiences",
     location: "Bryn Mawr, PA",
     position: "Software QA Engineer & IT Systems Intern",

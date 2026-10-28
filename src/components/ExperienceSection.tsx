@@ -80,7 +80,7 @@ export default function ExperienceSection() {
                   >
                     <img
                       src={job.image}
-                      alt={`${job.company} logo`}
+                      alt={job.imageAlt ?? `${job.company} logo`}
                       className="h-75 w-auto rounded-md shadow-sm"
                     />
                   </motion.div>

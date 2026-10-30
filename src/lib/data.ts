@@ -130,4 +130,25 @@ export const projects = [
     "Designed transaction validation layers to prevent invalid inputs, enforce balance constraints, and simulate time-based banking actions like monthly interest.",
     ],
   },
+  {
+  title: "AI Credit Card Recommendation System",
+  github: "https://github.com/JovanyLeon/AI-CreditCard-Recommender",
+  description: [
+    "Built a full-stack credit card recommendation platform using React, TypeScript, FastAPI, and Python that converts user financial preferences into ranked, explainable credit card recommendations.",
+    
+    "Developed a credit card data pipeline that normalizes third-party card datasets into a consistent internal schema, allowing the recommendation engine to evaluate 100+ cards without being tightly coupled to a single external provider.",
+    
+    "Created explainable recommendation results with Match Scores, scoring breakdowns, matched preferences, and tradeoffs so users can understand why each card was ranked instead of receiving opaque AI-generated suggestions.",
+    
+    "Built RESTful FastAPI endpoints with Pydantic validation to expose card data, recommendation results, preference interpretation, and detailed scoring information to the React frontend.",
+    
+    "Architected the application so the complete recommendation system functions without OpenAI, providing graceful fallback to the guided recommender when AI is disabled, unavailable, or returns an invalid response.",
+    
+    "Implemented automated unit and integration testing for card filtering, scoring, ranking, edge cases, API contracts, and deterministic recommendation behavior to ensure consistent results across identical inputs.",
+    
+    "Designed a responsive fintech-style React interface featuring multi-step preference collection, AI interpretation previews, ranked recommendation cards, card comparisons, and transparent score breakdowns.",
+    
+    "Configured continuous integration to run backend tests, linting, frontend type checking, tests, and production builds without requiring OpenAI credentials, ensuring the core platform remains independently deployable."
+  ],
+},
 ];
